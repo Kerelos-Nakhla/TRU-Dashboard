@@ -1,92 +1,122 @@
-# 💳 Digital Wallet Analysis Dashboard (Excel)
+# TRU Digital Wallet Analysis Dashboard
 
-## 📊 Overview
-This project presents an interactive **Microsoft Excel dashboard** focused on analyzing digital wallet performance for **TRU**.  
-
-The goal is to monitor financial performance, analyze user behavior, and generate actionable insights to support data-driven decision-making in the fintech domain.
-
----
-
-## 🎯 Objectives
-- Track key financial and operational KPIs  
-- Analyze user and merchant activity  
-- Evaluate transaction behavior across different dimensions  
-- Identify high-performing categories and payment methods  
-- Detect patterns, trends, and outliers in the data  
+<p align="center">
+  <b>Digital Wallet Revenue, Transaction Behavior, User Activity & Profitability Analysis in Microsoft Excel</b>
+</p>
 
 ---
 
-## 🛠️ Tools & Techniques
+## Executive Overview
+
+The **TRU Digital Wallet Analysis Dashboard** is an interactive Excel analytics project focused on financial performance, transaction behavior, user and merchant activity, payment methods, device usage, and geographic performance.
+
+The project combines KPI reporting with statistical analysis to identify patterns, high-value activity, and potential profitability drivers in a digital-wallet environment.
+
+### Core Analytical Scope
+
+- Revenue, fees, and cashback
+- Transaction volume
+- Categories and products
+- Users and merchants
+- Payment methods
+- Device types
+- Urban, suburban, and rural activity
+- Cashback and fee ratios
+- Distribution and outlier analysis
+
+---
+
+## Business Problem & Key Findings
+
+The analysis addresses the need to understand **where wallet activity and revenue come from, which payment behaviors dominate, and which user groups may require deeper investigation**.
+
+### Key Findings
+
+- **Urban areas** are the main driver of digital-wallet revenue.
+- **Android users** generate the highest transaction volume.
+- **Bank Transfer** is the most frequently used payment method.
+- Categories such as **Streaming and Utilities** contribute a major share of revenue.
+- Cashback and fee ratios provide useful indicators for evaluating profitability and operating efficiency.
+- Outliers highlight high-value users whose behavior can be investigated separately.
+
+---
+
+## Dashboard Visual Tour
+
+The dashboard covers:
+
+1. **Financial KPIs** — revenue, fees, cashback, and ratios
+2. **Transaction Activity** — transaction counts and behavior
+3. **Category & Product Performance** — contribution across products
+4. **Payment Methods** — usage by payment channel
+5. **Device Analysis** — activity by device type
+6. **Geographic Analysis** — urban, suburban, and rural performance
+7. **Users & Merchants** — contribution and activity analysis
+8. **Statistical Analysis** — distributions and outlier detection
+
+---
+
+## Data & Analysis
+
+### Data Source
+
+The TRU workbook is stored in the repository's **Data** folder.
+
+### Analytical Workflow
+
+1. Data cleaning and preparation
+2. KPI calculation
+3. Transaction and customer aggregation
+4. Category and payment-method analysis
+5. Geographic and device analysis
+6. Distribution and outlier analysis
+7. Dashboard storytelling and business insight extraction
+
+---
+
+## Tools & Technologies
+
 - **Microsoft Excel**
-  - Pivot Tables  
-  - Pivot Charts  
-  - Slicers  
-  - Data Cleaning  
-
-- **Statistical Analysis**
-  - Histograms (distribution analysis)  
-  - Box & Whisker Plots (outlier detection & variability)  
-
----
-
-## 📊 Key KPIs
-- 💰 Total Revenue  
-- 🧾 Total Fees  
-- 🎁 Total Cashback  
-- 🔄 Number of Transactions  
-- 📦 Number of Categories & Products  
-- 👥 Number of Users & Merchants  
-- 📉 Cashback Ratio  
-- 📈 Fee Ratio  
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Data Cleaning
+- Statistical Analysis
+- Histograms
+- Box & Whisker Plots
+- Data Visualization
+- Dashboard Design
 
 ---
 
-## 📈 Analysis Scope
-- Categories & Products performance  
-- Payment Methods usage  
-- Device Types distribution  
-- Location impact (Urban, Suburban, Rural)  
-- Users & Merchants contribution  
+## Data Model & Reporting Structure
+
+The reporting structure connects transactions with product/category, user/merchant, payment, device, and location dimensions.
+
+Excel's Pivot-based analytical layer allows these dimensions to be filtered and compared interactively.
 
 ---
 
-## 🔍 Key Insights
-- Urban areas are the main driver of digital wallet revenue  
-- Android users generate the highest transaction volume  
-- Bank Transfer is the most frequently used payment method  
-- Top categories (e.g., Streaming & Utilities) contribute the majority of revenue  
-- Cashback and fee ratios help evaluate profitability and efficiency  
-- Presence of outliers highlights high-value users  
+## Files & Structure
+
+```
+Data/
+└── TRU.xlsx
+
+README.md
+```
 
 ---
 
-## 📊 Dashboard Features
-- Interactive slicers for dynamic filtering  
-- KPI tracking for financial and operational performance  
-- Advanced Pivot Tables & Pivot Charts  
-- Clean and user-friendly design  
+## How to Use
+
+1. Open **Data/TRU.xlsx** in Microsoft Excel 2016 or later.
+2. Use the available slicers to filter payment method, device type, location, and category.
+3. Review financial KPIs and transaction patterns.
+4. Use statistical visuals to investigate distributions and outliers.
 
 ---
 
-## 🚀 How to Use
-1. Download the Excel file  
-2. Open using Microsoft Excel (2016 or later recommended)  
-3. Use slicers to filter data by:
-   - Payment method  
-   - Device type  
-   - Location  
-   - Category  
-4. Explore insights interactively  
+## License & Usage
 
----
-
-## 💡 Key Learnings
-- Working with fintech (digital wallet) datasets  
-- Applying statistical analysis using Excel  
-- Building KPI-driven dashboards  
-- Enhancing data storytelling and visualization skills  
-
----
-
-## 📌 Conclusion
-This project demonstrates how **Excel can be effectively used for advanced data analysis and dashboarding**, combining business intelligence with statistical techniques to deliver meaningful insights in the fintech industry.
+This repository is part of **Kerelos Nakhla's Data Analytics portfolio** and is provided for learning, demonstration, and portfolio purposes.
